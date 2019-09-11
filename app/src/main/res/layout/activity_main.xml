@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#474545">
+
+    <RelativeLayout
+        android:id="@+id/layout_tombol_angka"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="80dp"
+        android:background="#202024"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp">
+
+        <!--        <Button-->
+        <!--            android:id="@+id/tombol_clear_all"-->
+        <!--            android:layout_width="85dp"-->
+        <!--            android:layout_height="72dp"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_marginStart="0dp"-->
+        <!--            android:layout_marginLeft="0dp"-->
+        <!--            android:background="@drawable/tombol_angka"-->
+        <!--            android:text="CE"-->
+        <!--            android:textColor="#FFFFFF"-->
+        <!--            android:textSize="35sp" />-->
+
+        <Button
+            android:id="@+id/tombol_tujuh"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_empat"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_tujuh"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_satu"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_empat"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_clear_all"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+
+            android:layout_below="@+id/tombol_satu"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="C"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_delapan"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_lima"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_delapan"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_dua"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_lima"
+
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_nol"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_dua"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/tombol_backspace"-->
+        <!--            android:layout_width="85dp"-->
+        <!--            android:layout_height="72dp"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_marginEnd="0dp"-->
+        <!--            android:layout_marginRight="19dp"-->
+        <!--            android:background="@drawable/tombol_angka"-->
+        <!--            android:text="⌫"-->
+        <!--            android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+        <!--            android:textColor="#FFFFFF"-->
+        <!--            android:textSize="40sp"-->
+        <!--            android:typeface="normal" />-->
+
+        <Button
+            android:id="@+id/tombol_sembilan"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/tombol_angka"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_enam"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_sembilan"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/tombol_angka"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_tiga"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_enam"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/tombol_angka"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/tombol_koma"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_tiga"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_angka"
+            android:text="."
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_tombol_operasi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="80dp"
+        android:background="#2F2F33"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/tombol_bagi"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_operasi"
+            android:text="÷"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/tombol_kali"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_bagi"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_operasi"
+            android:text="×"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/tombol_kurang"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_kali"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_operasi"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="55dp" />
+
+        <Button
+            android:id="@+id/tombol_tambah"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/tombol_kurang"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tombol_operasi"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#202024">
+
+        <Button
+            android:id="@+id/tombol_sama_dengan"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/tombol_sama_dengan"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+    </RelativeLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="right|bottom"
+            android:textSize="45sp"
+            android:inputType="textMultiLine"
+            android:minLines="1"
+            android:maxLines="2"
+            android:focusable="false"
+            android:textColor="#FFFFFF"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>
